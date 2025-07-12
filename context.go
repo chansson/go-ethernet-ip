@@ -1,7 +1,7 @@
-package go_ethernet_ip
+package ethernet_ip
 
 import (
-	"github.com/loki-os/go-ethernet-ip/types"
+	"github.com/chansson/ethernet-ip/types"
 	"math/rand"
 	"time"
 )

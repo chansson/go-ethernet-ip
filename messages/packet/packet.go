@@ -2,9 +2,9 @@ package packet
 
 import (
 	"errors"
-	"github.com/loki-os/go-ethernet-ip/bufferx"
-	"github.com/loki-os/go-ethernet-ip/command"
-	"github.com/loki-os/go-ethernet-ip/types"
+	"github.com/chansson/ethernet-ip/bufferx"
+	"github.com/chansson/ethernet-ip/command"
+	"github.com/chansson/ethernet-ip/types"
 )
 
 type Header struct {

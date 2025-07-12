@@ -1,8 +1,8 @@
 package packet
 
 import (
-	"github.com/loki-os/go-ethernet-ip/bufferx"
-	"github.com/loki-os/go-ethernet-ip/types"
+	"github.com/chansson/ethernet-ip/bufferx"
+	"github.com/chansson/ethernet-ip/types"
 )
 
 type SpecificData struct {

@@ -1,19 +1,19 @@
-package go_ethernet_ip
+package ethernet_ip
 
 import (
 	"errors"
-	"github.com/loki-os/go-ethernet-ip/bufferx"
-	"github.com/loki-os/go-ethernet-ip/messages/listIdentity"
-	"github.com/loki-os/go-ethernet-ip/messages/listInterface"
-	"github.com/loki-os/go-ethernet-ip/messages/listServices"
-	"github.com/loki-os/go-ethernet-ip/messages/packet"
-	"github.com/loki-os/go-ethernet-ip/messages/registerSession"
-	"github.com/loki-os/go-ethernet-ip/messages/sendRRData"
-	"github.com/loki-os/go-ethernet-ip/messages/sendUnitData"
-	"github.com/loki-os/go-ethernet-ip/messages/unRegisterSession"
-	"github.com/loki-os/go-ethernet-ip/path"
-	"github.com/loki-os/go-ethernet-ip/types"
-	"github.com/loki-os/go-ethernet-ip/utils"
+	"github.com/chansson/ethernet-ip/bufferx"
+	"github.com/chansson/ethernet-ip/messages/listIdentity"
+	"github.com/chansson/ethernet-ip/messages/listInterface"
+	"github.com/chansson/ethernet-ip/messages/listServices"
+	"github.com/chansson/ethernet-ip/messages/packet"
+	"github.com/chansson/ethernet-ip/messages/registerSession"
+	"github.com/chansson/ethernet-ip/messages/sendRRData"
+	"github.com/chansson/ethernet-ip/messages/sendUnitData"
+	"github.com/chansson/ethernet-ip/messages/unRegisterSession"
+	"github.com/chansson/ethernet-ip/path"
+	"github.com/chansson/ethernet-ip/types"
+	"github.com/chansson/ethernet-ip/utils"
 	"math/rand"
 )
 

@@ -1,10 +1,10 @@
 package packet
 
 import (
-	"github.com/loki-os/go-ethernet-ip/bufferx"
-	"github.com/loki-os/go-ethernet-ip/path"
-	"github.com/loki-os/go-ethernet-ip/types"
-	"github.com/loki-os/go-ethernet-ip/utils"
+	"github.com/chansson/ethernet-ip/bufferx"
+	"github.com/chansson/ethernet-ip/path"
+	"github.com/chansson/ethernet-ip/types"
+	"github.com/chansson/ethernet-ip/utils"
 )
 
 type UnConnectedSend struct {

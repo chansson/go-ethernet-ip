@@ -1,7 +1,7 @@
 package packet
 
 import (
-	"github.com/loki-os/go-ethernet-ip/bufferx"
+	"github.com/chansson/ethernet-ip/bufferx"
 )
 
 func Paths(arg ...[]byte) []byte {

@@ -1,6 +1,6 @@
 package utils
 
-import "github.com/loki-os/go-ethernet-ip/types"
+import "github.com/chansson/ethernet-ip/types"
 
 func Len(data []byte) types.USInt {
 	_len := len(data)

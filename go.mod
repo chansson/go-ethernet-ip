@@ -1,3 +1,3 @@
-module github.com/chansson/go-ethernet-ip
+module github.com/chansson/ethernet-ip
 
 go 1.24
